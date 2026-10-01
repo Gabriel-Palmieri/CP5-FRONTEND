@@ -1,0 +1,45 @@
+.site-header,
+.site-footer {
+  background-color: #212529;
+}
+.site-header {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.site-header .nav-link {
+  color: #aab0b6;
+}
+.navbar-brand span {
+  color: #a66b35;
+}
+.btn-comprar {
+  background-color: #966332;
+  color: white;
+}
+.btn-comprar:hover {
+  background-color: #7d5028;
+  color: white;
+}
+.hero {
+  min-height: 370px;
+}
+.hero img {
+  height: 305px;
+  object-fit: cover;
+}
+.depoimentos {
+  min-height: 285px;
+}
+.carousel-item p:nth-of-type(2) {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.faq {
+  min-height: 245px;
+}
+@media (max-width: 767px) {
+  .hero img {
+    height: auto;
+  }
+}
